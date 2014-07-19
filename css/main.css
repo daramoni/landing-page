@@ -1,0 +1,185 @@
+body
+{
+	background: rgb(29,29,38);
+	font-family: 'Source Sans Pro', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;​
+	outline: none !important;
+}
+.redar-menu
+{
+	padding: 0px !important;
+}
+.p-message:hover
+{
+	text-decoration: none !important;
+}
+.p-message:focus
+{
+	border:none !important;
+}
+/*
+.container
+{
+	border: solid 1px green;
+}
+
+EMPIEZAN EL CSS DE LASECCION E
+*/
+
+.type, .required, .minlength
+{
+	color:#00BA87 !important;
+}
+input:focus
+{
+	border: solid 2px #00BA87 !important;
+	box-shadow:solid 3px #00ba87 !important;
+}
+.nav
+{
+	background-color: #272733;
+	box-shadow: 0 2px 2px rgba(0,0,0,.5);
+	opacity:0.6;
+	height:3em;
+}
+.all-menu
+{
+	opacity: 2 !important;
+}
+a:link {
+	font-family: "Helvetica Neue";
+	text-decoration: none;
+}
+a:hover
+{
+	color: #00af85;
+	font-family: "Helvetica Neue";
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(3,3,3,.8);
+	background:none !important;	
+}
+.redar-menu a:hover
+{
+	color:green !important;
+	background:none !important;
+	border-bottom:solid 2px #00c189 !important;
+}
+.redar-menu a:focus
+{
+	color:green !important;
+	background:none !important;
+	border-bottom:solid 2px #00c189 !important;
+}
+
+a:focus
+{
+	color:green !important;
+	background:none !important;
+	border-bottom:solid 2px #00c189 !important;
+	
+}
+
+
+ .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus 
+{
+	background:none !important;
+}
+.menu-about
+{
+	opacity: 0.9 !important;
+}
+.E-image
+{
+	margin-left: 4em;
+}
+.navbar-inner
+{
+	border: none;
+
+}
+
+
+
+.menu-about
+{
+	position:relative;
+	left:16.5%;
+}
+.menu-blee
+{
+	position:relative;
+	left:19.5%;
+}
+.span6
+{
+	margin-left: 0px !important;
+}
+.menu-dashboard
+{
+	position:relative;
+	left:18%;
+}
+
+.menu-purchase
+{
+	position:relative;
+	left:21.5%;
+	
+}
+.menu-get
+{
+	position:relative;
+	left:23.5%;
+}
+.redar-menu
+{
+	z-index: 3;
+	background:none;
+	
+	
+}
+.redar-menu a
+{
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 1.125em;
+	color:#fff;
+	text-shadow: 1px 1px 0 #231f20;
+}
+.nav
+{
+	width:100%;
+	z-index:3;
+	box-shadow: 1px 1px 2px 1px black;
+	background-color:none;
+}
+.texttops
+{
+	margin-top:1em;
+}
+.menu-home
+{
+	left:15%;
+	position:relative;	
+}
+.pading-imaleft
+
+{
+	padding-left:7px;
+}
+.tmicon
+{
+	font-size:.8em;
+}
+.landing-pointer {
+	cursor: pointer !important;
+}
+.landing-footer {
+	margin-top: 0px;
+	margin-bottom: 40px;
+	text-align:center;
+	color: #FFFFFF;
+}
+.landing-footer a {
+	color: #00c189;
+}

@@ -1,0 +1,50 @@
+.images-dash
+{
+	
+}
+.espaciador-dash
+{
+	height:100px;
+}
+.text-cursive
+{
+	font-size:87.5%;
+ color:#F0EFED;
+ font-style:italic;
+}
+
+
+.text-dashall li
+{
+	
+	line-height: 2em !important;
+}
+.dash-image1
+{
+	margin-left: 5.8em;
+	
+}
+.dash-image2
+{
+	margin-top:90px;
+	margin-left:8.5em;
+}
+.container-dashboard
+{
+	
+}
+.titles
+{
+	font-family: 'Source Sans Pro', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:162.5%;
+	color:#00BA87;
+	margin-top:1em;
+	line-height: 1.3em;
+}
+.text
+{
+	font-family: 'Source Sans Pro', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:120%;
+	color:#F0EFED;
+	line-height: 1.3925em;
+}

@@ -1,0 +1,118 @@
+@media (min-width: 768px) and (max-width: 970px) { 
+	.mujerimg
+	{
+		height: 30em;
+    	padding-left: 15.5%;
+	}
+	
+	a:focus
+	{
+		color:green !important;
+	}
+	a:hover
+	{
+		color:green !important;
+		font-weight: bold;
+	}
+	.about-text
+	{
+		font-size:2em;
+	}
+	
+	.nav
+	{
+		position:fixed;
+	}
+	.image-1
+	{
+		margin-top:23px;
+		margin-left:0px;
+	}
+	.c-image
+	{
+		margin-top:0px;
+	}
+	.dash-image1 {
+		margin-left: .5em;
+	}
+	.ipad-titles
+	{
+		font-size: 1.2em;
+	}
+	.ipad-text
+	{
+		font-size:1.1em;
+	}
+	.d-image
+	{
+		margin-left: 3em !important;
+	}
+	.E-image
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.E-images
+	{
+		margin-top:.625em;
+		margin-left: 0px;
+	}
+	.purchase-image
+	{
+	 	margin-left:.46875em;
+	}
+	.title-purchase
+	{
+		font-size: 2em;
+	}
+	.blee-image1ipad
+	{
+	 	margin-top: 0px;
+	}
+
+	 .ipad-imglocation
+	{
+		padding-right:70px !important;
+	}
+	
+}
+@media (min-width: 961px) and (max-width: 980px) {
+	.mujerimg
+ 	{
+ 		height: 30em !important;
+    	padding-left: 15.6% !important;
+ 	}
+}
+
+@media (min-width: 980px) and (max-width: 1023px) {
+	.mujerimg
+ 	{
+ 		padding-left:3% !important; 
+ 
+ 	}
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1200px) 
+ {
+ 	.mujerimg
+ 	{
+ 		padding-left:3% !important; 
+ 	}
+
+ }
+@media screen and (max-width: 768px) {
+	.about-img1
+	 {
+	 	background-position:-470px center;
+	 	height:675px;
+	 }
+}
+@media (min-width: 1001px) and (max-width: 1023px) {
+	.mujerimg
+ 	{
+ 		padding-left:4% !important; 
+ 	}
+}
+

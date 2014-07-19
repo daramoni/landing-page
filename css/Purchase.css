@@ -1,0 +1,30 @@
+.title-purchase
+{
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
+}
+.sub-title-purchase
+{
+	text-align: center;
+	font-size: 170%;
+	line-height: 2.3em;
+}
+.container-purchase
+{
+	
+	margin-left: 0px !important;
+}
+.purchase-all
+{
+	background:rgb(214,215,218);
+}
+.purchase-image
+{
+	margin-left: 4.5em;
+}
+
+.margin-imag
+{
+	margin-left:7px !important;
+}

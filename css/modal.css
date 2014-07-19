@@ -1,0 +1,42 @@
+.modal-logo
+{
+		margin-left: 2em;	  	
+    
+    	
+}
+.m-size
+{
+	width:33.125em !important;
+}
+.modal-spans
+{
+	margin-left: 0px !important;
+}
+.modal-close
+{
+	
+}
+.modal-head-border
+{
+	border-bottom: solid .0625em black !important;
+}
+.modal-msg
+{
+	color:gray;
+	text-align:center;
+}
+.modal-input
+{
+	width:25em;
+	height:4em !important;
+}
+.modal-submit
+{
+	width:26em;
+	height:4.7em;
+	
+}
+.modal-text-all 
+{
+	text-align:center !important;
+}
