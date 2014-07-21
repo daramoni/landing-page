@@ -164,6 +164,11 @@
 		function Referrals(){
 				window.location.href =("http://redar.clai.mx/waiters/new");
 		}
+		function GoApp(){
+			window.open('https://itunes.apple.com/us/app/redar/id892972850?ls=1&mt=8','','width=1000,height=600,left=50,top=50,toolbar=yes');
+
+			return false;
+		}
 	</script>
 
 </head>
@@ -223,11 +228,10 @@
 					<div class="about-images">
 
 						<div class="span3 appstore-img">
-
-							<a href="#app_modal" role="button" class="" data-toggle="modal" onmouseOver="document.ejemplo.src='images/A/btn_09.png';" onClick="return false;"
+							<a onmouseOver="document.ejemplo.src='images/A/btn_09.png';" onClick="GoApp();"
 							onmouseOut="document.ejemplo.src='images/A/btn_03.png';">
-								<img name="ejemplo" src="images/A/btn_03.png" alt="redar" alt="redar" ></a>
-						
+								<img name="ejemplo" src="images/A/btn_03.png" alt="redar" alt="redar" >
+							</a>
 						</div>
 
 					</div>
@@ -241,7 +245,7 @@
 
 				</div>
 				<div class="span8">
-					<img src="images/A/A_01.png" style="margin-left:0px" class="mujerimg" alt="redar">
+					<img src="images/A/A_01.png" style="margin-left:0px" class="mujerimg" alt="redar">	
 				</div>
 			</div>
 		</div>
