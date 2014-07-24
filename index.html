@@ -36,30 +36,23 @@
 	
 	<!-- CSS FOR ALL LANDING PAGE -->
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
 	<!--END CSS MAIN -->
-
-	
 
 	<script  type="text/javascript">
   
 		imagenOn = new Image(60,60);
 		imagenOn.src = "../final-landingpag/images/A/btn_09.png";
 
-
 		// Empieza java script de purchase para cambiar la imagen
 		var estado = false;
 
 		imagenClick = new Image(60,60);
-
 		imagenClick.src = "images/F/gold_h.png";
 
 		imagenClick2 = new Image(60,60);
-
 		imagenClick2.src = "images/F/platinum_h.png";
 
 		imagenClick3 = new Image(60,60);
-
 		imagenClick3.src = "images/F/diamond_h.png";
 
 		function pulsar( )
@@ -68,12 +61,14 @@
 			ejemplo3.src = imagenClick.src;
 			estado = true;
 		}
+
 		function pulsar2( )
 		{
 			var ejemplo4 = document.getElementById('ejemplo4');
 			ejemplo4.src = imagenClick2.src;
 			estado = true;
 		}
+
 		function pulsar3( )
 		{
 			var ejemplo4 = document.getElementById('ejemplo5');
@@ -88,7 +83,6 @@
 				SaveContacto();
 			}
 		}
-
 
 		function SaveContactoValidacionapp()
 		{
@@ -131,7 +125,6 @@
 		function Saveapp() {
 
 			method = "GET";
-			
 			var data = $('#form_app').serialize();
 			
 			$.ajax ({
@@ -162,24 +155,20 @@
 				}
 			});
 		}
-		function Referrals(){
-				window.location.href =("http://redar.clai.mx/waiters/new");
-		}
-		function GoApp(){
-			window.open('https://itunes.apple.com/us/app/redar/id892972850?ls=1&mt=8','','width=1000,height=600,left=50,top=50,toolbar=yes');
 
+		function Referrals(){
+			window.open("http://redar.clai.mx/waiters/new", '_blank');
+		}
+
+		function GoApp(){
+			window.open('https://itunes.apple.com/us/app/redar/id892972850?ls=1&mt=8', '_blank');
 			return false;
 		}
 	</script>
-
 </head>
-
 <body>
-
-
-
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="2">
-		
+
 		<div class="navbar-inner navbar-fixed-top redar-menu">
 			<ul class="nav nav-pills navigation">
 				<li data-slide="1" class="menu-home all-menu">
@@ -226,11 +215,10 @@
 						<br />
 					</div>
 					<div class="about-images">
-
 						<div class="span3 appstore-img">
 							<a onmouseOver="document.getElementById('ejemplo').src='images/A/btn_09.png';" onClick="GoApp();"
 							onmouseOut="document.ejemplo.src='images/A/btn_03.png';">
-								<img id="ejemplo" src="images/A/btn_03.png" alt="coupons" />
+								<img id="ejemplo" src="images/A/btn_03.png" alt="coupons" style="cursor:pointer"/>
 							</a>
 						</div>
 
@@ -242,7 +230,6 @@
 							</h4>
 						</div>
 					</div>
-
 				</div>
 				<div class="span8">
 					<img src="images/A/A_01.png" style="margin-left:0px" class="mujerimg" alt="redar application">	
@@ -251,14 +238,12 @@
 		</div>
 		
 		<!-- Modal -->
-
 		<div id="app_modal" class="modal-text-all m-size modal hide fade" tabindex="-1" role="dialog"  aria-hidden="true">
+
 			<div class="modal-header modal-head-border">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 					<br />
-
 				<img src="images/A/logotipo.png" class="modal-logo" alt="modal_redar" />
-
 			</div>
 
 			<div class="modal-body">
@@ -268,13 +253,10 @@
 						<br />
 						MUY PRONTO EN TU CORREO
 						<br />
-
 						<input type="email"  class="modal-input" placeholder="YOUR@EMAIL.COM" name="web_site_app_android_reminder[email]" id="web_site_app_android_reminder_email" required/>
-
 					</label>
 					
 					<button type="button" class="btn btn-primary modal-submit" onclick="SaveContactoValidacionapp();">REGISTRAR</button>
-						
 				</form>
 			</div>
 			<div class="modal-footer"></div>
@@ -284,28 +266,21 @@
 	<!-- END MODAL -->
 	<!-- END SLIDE1-->
 	<a class="button" data-slide="2" title=""></a>
-
 	<!-- AQUI ES DONDE SE DETENDRA EL SLIDER-->
-
 	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="2">
 
 		<div class="border-bottom">
 			<div class="container container-blee">
 				<div class="row">
 					<div class="span6">
-
 						<div class="blee-image1ipad">
 							<img src="images/B/b_01.png" class="img-marginleft" alt="business intelegence"/>
 						</div>
-
 					</div>
 					<div class="span6">
 						<div class="espaciador-blee span5"></div>
-
 						<div class="blee-textall">
-
 							<div class="blee-tittle about-titles ipad-titles span6">What is Redar &#8482; ?</div>
-
 							<div class="about-subtitle span6">
 								(Restaurants Plus Rewards)
 								<br />
@@ -334,27 +309,21 @@
 
 								<div class="span5 about-final">This is what Redar &#8482; offers to you and its users:</div>
 							</div>
-
 						</div>
 					</div>
-
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<!-- END SLIDER 2-->
-
 	<div class="container container-dashboard">
 		<div class="row">
 			<div class="span6">
 				<div class="">
 					<img src="images/C/c_01.png" class="c-image img-marginleft" alt="redar app"/>
 				</div>
-
 			</div>
 			<div class="text-dashall">
-
 				<div class="span6">
 					<div class="span6 espaciador-dash"></div>
 					<div class="titles ipad-titles">
@@ -398,17 +367,13 @@
 			<div class="container container-blee">
 				<div class="row">
 					<div class="span6">
-
 						<div class="ipad-imglocation" style="padding-right:180px;" >
 							<img src="images/location/lo_01.png" class="img-marginleft" alt="beacon redar"/>
 						</div>
-
 					</div>
 					<div class="span6">
 						<div class="espaciador-blee span5"></div>
-
 						<div class="blee-textall">
-
 							<div class="blee-tittle ipad-titles">LOCATION AWARENESS</div>
 
 							<div class="blee-text-fila2 span6">
@@ -460,33 +425,26 @@
 									</li>
 								</ul>
 							</div>
-
 						</div>
-
 					</div>
 				</div>
 				<a class="button" data-slide="4" title=""></a>
 			</div>
-			
 		</div>
 	</div>
 
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="2">
 		<div class="dashboard2all">
-
 			<div class="container">
 				<div class="row">
-
 					<div class="span6">
 						<div style="padding-left:7px">
 							<img src="images/customer/cu_01.png" class="d-images img-marginleft" alt="loyalty system"/>
 						</div>
-
 					</div>
 
 					<div class="span6 textall-dash2">
 						<div class="title-dash2 ipad-titles">CUSTOMER LOYALTY SYSTEM</div>
-
 						<div class="text-dash2 ipad-text">
 							The Customer Loyalty System is a powerful tool to
 							<br />
@@ -513,7 +471,6 @@
 								<li style="list-style:clircle">Check in</li>
 							</ul>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -526,11 +483,9 @@
 						<div class="span6" style="padding-left:7px">
 							<img src="images/bussiness/bi_01.png" class="img-marginleft" alt="businness intelegence">
 						</div>
-
 						<div class="span6 textall-dash2">
 							<div class="title-dash2 ipad-titles">BUSINESS INTELIGENCE
 							</div>
-
 							<div class="text-business ipad-text">
 								Redar’s feedback system is amazing. It provides you with the most complete set of reporting tools and indicators on the market  allowing you to easily evaluate the impact of your promotions & campaigns. It shows you customer patterns and preferences in a simple and intuitive interface  allowing you to change or keep your existing promotions or create new ones!
 							</div>
@@ -633,7 +588,6 @@
 		</div>
 		<div class="slide" id="slide40" data-slide="4" data-stellar-background-ratio="2">
 			<!-- Location Awarenness -->
-
 			<a class="button" data-slide="3" title=""></a>
 		</div>
 	</div>
@@ -652,7 +606,6 @@
 								<br />
 								meet your specific customer management needs:
 							</div>
-
 						</div>
 						<div class="images-purchase">
 							<div class="row-fluid">
@@ -676,7 +629,6 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -685,7 +637,6 @@
 	<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="2">
 
 		<div class="container-get">
-
 			<div class="container get-intouch">
 				<div class="row-fluid row get">
 					<div class="span6">
@@ -695,7 +646,6 @@
 								<br>
 							</div>
 							<div class="row-fluid">
-								
 								<input type="text" placeholder="Your Name" class="get-textinput gets-inputstexts span12" name="web_site_contact[name]" id="web_site_contact_name" required/>
 							</div> 
 							<div class="row-fluid">
