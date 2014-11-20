@@ -38,7 +38,7 @@ function responsiveMobileMenu() {
 			// if modern browser
 			
 			if ($.support.leadingWhitespace) {
-				$(this).css('max-width' , $width*1.05+'px');
+				$(this).css('max-width' , $width*1.25+'px');
 			}
 			// 
 			else {
