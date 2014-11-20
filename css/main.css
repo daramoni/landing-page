@@ -1,3 +1,4 @@
+
 body
 {
 	background: rgb(29,29,38);
@@ -38,9 +39,9 @@ input:focus
 .nav
 {
 	background-color: #272733;
-	box-shadow: 0 2px 2px rgba(0,0,0,.5);
-	opacity:0.6;
-	height:3em;
+	/*box-shadow: 0 2px 2px rgba(0,0,0,.5);*/
+	opacity:0.8;
+	height:auto;
 }
 .all-menu
 {
@@ -135,12 +136,9 @@ a:focus
 {
 	z-index: 3;
 	background:none;
-	
-	
 }
 .redar-menu a
 {
-	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 1.125em;
 	color:#fff;
@@ -150,7 +148,7 @@ a:focus
 {
 	width:100%;
 	z-index:3;
-	box-shadow: 1px 1px 2px 1px black;
+	/*box-shadow: 1px 1px 2px 1px black;*/
 	background-color:none;
 }
 .texttops
@@ -323,8 +321,27 @@ a:focus
 	.plans_image{
 		padding-left:16.2%;
 	}
+	
 }
-
+@media screen and (max-width: 760px) 
+ {
+ 	html{
+ 		text-align: center;
+ 	}
+ 	body,html{
+ 		padding-left: 0px !important;
+ 		padding-right: 0px !important;
+ 		margin: 0px !important;
+ 		padding: 0px !important;
+ 	}
+ 	.appstore-img{
+ 		text-align: center;
+ 		margin-left: 1.7em !important; 
+ 	}
+ 	.about-text{
+ 		margin-left: 2em !important;
+ 	}
+ }
 
 @media screen and (max-width: 1024px) 
  {
