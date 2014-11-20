@@ -18,6 +18,11 @@ body
 {
 	border:none !important;
 }
+.menu-relative{
+	width:11.2% !important;
+	float:left;
+	
+}
 /*
 .container
 {
@@ -136,6 +141,7 @@ a:focus
 {
 	z-index: 3;
 	background:none;
+	/*position:fixed;*/
 }
 .redar-menu a
 {
