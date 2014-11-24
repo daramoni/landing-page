@@ -126,7 +126,7 @@
       width: 14.2857%; 
       color:white;}
     .flexnav li a {
-      border-left: 1px solid #acaca1;
+      /*border-left: 1px solid #acaca1;*/
       border-bottom: none; }
     .flexnav li > ul {
       position: absolute;
