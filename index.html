@@ -15,13 +15,18 @@
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+	
+	<script src="js/jquery.flexnav.min.js"></script>
+	
 	
 	<script type="text/javascript" src="js/js.js"></script>
 	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/parsley.js"></script>
+	
+	
+
 
 	<!-- CSS MAIN LANDING PAGE -->
 
@@ -30,8 +35,9 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
 	
 	<!-- CSS FOR ALL LANDING PAGE -->
+	<link rel="stylesheet" href="css/flexnav.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="css/responsivemobilemenu.css" media="all"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/responsivemobilemenu.css" media="all"/> -->
 
 
 	<!--END CSS MAIN -->
@@ -161,11 +167,23 @@
 			window.open('https://itunes.apple.com/us/app/redar/id892972850?ls=1&mt=8', '_blank');
 			return false;
 		}
+
 	</script>
 </head>
 <body>
-
-	<div class="rmm navigation" data-menu-style = "graphite">
+	<div class="menu-button">Menu</div>
+	
+	<ul class="flexnav one-page navigation redar-menu" data-breakpoint="2000"> 
+	 	<li data-slide="1"><a class="active" >HOME</a></li>
+        <li data-slide="2"><a >ABOUT</a></li>
+        <li data-slide="3"><a >REDAR BEACON</a></li>
+        <li data-slide="4"><a >DASHBOARD</a></li>
+        <li data-slide="5"><a >PARTNERING</a></li>
+        <li data-slide="6"><a >GET IN TOUCH</a></li> 
+        <li onclick="Referrals()"><a >REFERRALS</a></li> 
+	</ul>
+	
+	<!-- <div class="rmm navigation" data-menu-style = "graphite">
         <ul>
             <li data-slide="1"><a class="active" >HOME</a></li>
             <li data-slide="2"><a >ABOUT</a></li>
@@ -175,7 +193,7 @@
             <li data-slide="6"><a >GET IN TOUCH</a></li> 
             <li onclick="Referrals()"><a >REFERRALS</a></li> 
        </ul>
-	</div>
+	</div> -->
 
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0">
 
@@ -679,5 +697,11 @@
 			</div>
 		</div>
 	</div>
+	<script>
+	
+	$(".flexnav").flexNav();
+	
+      
+    </script>
 </body>
 </html>

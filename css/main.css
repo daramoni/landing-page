@@ -67,7 +67,6 @@ a:hover
 .redar-menu a:hover
 {
 	color:green !important;
-	background:none !important;
 	border-bottom:solid 2px #00c189 !important;
 }
 .redar-menu a:focus
@@ -86,10 +85,7 @@ a:focus
 }
 
 
- .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus 
-{
-	background:none !important;
-}
+
 .menu-about
 {
 	opacity: 0.9 !important;
@@ -140,7 +136,7 @@ a:focus
 .redar-menu
 {
 	z-index: 3;
-	background:none;
+	/*background:none !important;*/
 	/*position:fixed;*/
 }
 .redar-menu a
@@ -148,7 +144,6 @@ a:focus
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 1.125em;
 	color:#fff;
-	text-shadow: 1px 1px 0 #231f20;
 }
 .nav
 {
@@ -335,14 +330,14 @@ a:focus
  		text-align: center;
  	}
  	body,html{
- 		padding-left: 0px !important;
+ 		/*padding-left: 0px !important;
  		padding-right: 0px !important;
  		margin: 0px !important;
- 		padding: 0px !important;
+ 		padding: 0px !important;*/
  	}
  	.appstore-img{
  		text-align: center;
- 		margin-left: 1.7em !important; 
+ 		margin-left: 0em !important; 
  	}
  	.about-text{
  		margin-left: 2em !important;
