@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-	<title>REDAR APP</title>
+	<title>¡Welcome to Redar Page!</title>
     <link rel="shortcut icon" href="https://redar.clai.mx/assets/Logotipo2.png" />
 	<meta name="author" content="hello@redarapp.com">
 	<meta name="keywords" content="redar app,clients,promotions,restaurants,specialties,rewards,foodtrock,food,clai,clarity">
@@ -44,7 +44,7 @@
 
 	<script  type="text/javascript">
 		imagenOn = new Image(60,60);
-		imagenOn.src = "../final-landingpag/images/A/btn_09.png";
+		imagenOn.src = "../landing-page/images/A/btn_09.png";
 
 		// Empieza java script de purchase para cambiar la imagen
 		var estado = false;
@@ -168,6 +168,27 @@
 			return false;
 		}
 
+		function ChangeImageAppLinks (ios,hover) {
+			if (ios) {
+				if ( hover) {
+					document.getElementById("image_appstore").src ="images/A/btn_09.png";
+				}else{
+					document.getElementById("image_appstore").src ="images/A/btn_03.png";
+				};
+			}else{
+				if ( hover) {
+					document.getElementById("image_google_play").src ="images/A/btn_10.png";
+				}else{
+					document.getElementById("image_google_play").src ="images/A/btn_05.png";
+				};
+			};
+		}
+
+		function GoAndroid () {
+			window.open('https://play.google.com/store/apps/details?id=com.clarity.Redar', '_blank');
+			return false;
+		}
+
 	</script>
 </head>
 <body>
@@ -216,15 +237,22 @@
 						your clients
 						<br />
 					</div>
-					<div class="about-images">
-						<div class="span3 appstore-img">
-							<a onmouseOver="document.getElementById('ejemplo').src='images/A/btn_09.png';" onClick="GoApp();"
-							onmouseOut="document.ejemplo.src='images/A/btn_03.png';">
-								<img id="ejemplo" src="images/A/btn_03.png" alt="coupons" style="cursor:pointer"/>
+					<div class="">
+						<div class="span3">
+							<a onmouseOver="ChangeImageAppLinks(true,true)" onClick="GoApp();"
+							onmouseOut="ChangeImageAppLinks(true,false)">
+								<img id="image_appstore" src="images/A/btn_03.png" alt="coupons" style="cursor:pointer"/>
+							</a>
+						</div>
+
+						<div class="span3" style="left: 13em;position: relative;top: -3.9em;">
+							<a onClick="GoAndroid();">
+							  <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" style="width:161px;height:55px;cursor:pointer" />
 							</a>
 						</div>
 
 					</div>
+
 					<div class="span4">
 						<div class="landing-hide" id="correo">
 							<h4 style="color:#00c189;text-align:center;">
